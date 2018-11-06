@@ -4,9 +4,8 @@
   <remote fetch="https://github.com/mozilla-partners/" name="mozilla-partners"/>
   <remote fetch="https://github.com/mozilla/" name="mozilla"/>
 
-  <project name="repack-scripts-2" path="scripts" remote="my-partners" revision="master"/>
+  <project name="repack-scripts" path="scripts" remote="my-partners" revision="master"/>
   <project name="build-tools" path="scripts/tools" remote="mozilla" revision="master"/>
-  <project name="aol" path="partners/aol" remote="mozilla-partners" revision="master"/>
-  <project name="funnelcake" path="partners/funnelcake" remote="mozilla-partners" revision="master"/>
+  <project name="partner1" path="partners/partner1" remote="my-partners" revision="master"/>
   <project name="ntt" path="partners/ntt" remote="mozilla-partners" revision="master"/>
 </manifest>
