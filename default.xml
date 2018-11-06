@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <manifest>
-  <remote fetch="https://github.com/nthomas-mozilla/" name="my-partners"/>
-  <remote fetch="https://github.com/mozilla-partners/" name="mozilla-partners"/>
+  <remote fetch="git@github.com:nthomas-mozilla" name="my-partners"/>
+  <remote fetch="git@github.com:mozilla-partners" name="mozilla-partners"/>
   <remote fetch="https://github.com/mozilla/" name="mozilla"/>
 
   <project name="repack-scripts" path="scripts" remote="my-partners" revision="master"/>
